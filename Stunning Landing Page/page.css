@@ -1,0 +1,143 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 28px;
+}
+
+    header img {
+        width: 150px;
+        margin-left: 28px;
+    }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    header nav a {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 20px;
+        color: #c7c6c5;
+        text-decoration: none;
+    }
+
+        header nav a:hover {
+            font-weight: 600;
+            font-size: 16px;
+            color: #FE5D20;
+            border-bottom: 3px solid #8071D0
+        }
+
+
+header button {
+    margin-right: 28px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #A389CC;
+    background-color: #FFD8DB;
+    padding: 20px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#section1 {
+    width: 35%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-left: 125px;
+}
+
+    #section1 h1 {
+        font-size: 73px;
+        color: black;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-family: 'Sora', sans-serif;
+        letter-spacing: -5px
+    }
+
+    #section1 p {
+        margin-top: 0;
+        color: #5e5958
+    }
+
+
+
+    #section1 div button {
+        font-size: 12px;
+        color: white;
+        background-color: #5243C0;
+        padding: 16px 32px;
+        border: 0;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    #section1 div img {
+        width: 40px;
+        margin-left: 30px;
+    }
+#account {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+#checkb {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+    #checkb article {
+        cursor: pointer;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 8vh;
+        border-radius: 20px;
+    }
+
+        #checkb article:hover {
+            box-shadow: 1px 3px 24px 0px #ccc;
+            background-color: white
+        }
+
+        #checkb article button {
+            width: 5%;
+            height: 10px;
+            border: none;
+            border-radius: 15px;
+            padding: 2px 8px;
+            margin-right: 5px;
+        }
+
+
+#section2 {
+    width: 65%;
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+
+    #section2 img {
+        width: 100%
+    }
